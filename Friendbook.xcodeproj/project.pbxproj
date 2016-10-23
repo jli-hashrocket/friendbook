@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		481EAFAB1DAC6D3F00695C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481EAFAA1DAC6D3F00695C0E /* AppDelegate.swift */; };
-		481EAFAD1DAC6D3F00695C0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481EAFAC1DAC6D3F00695C0E /* ViewController.swift */; };
 		481EAFB01DAC6D3F00695C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481EAFAE1DAC6D3F00695C0E /* Main.storyboard */; };
 		481EAFB21DAC6D3F00695C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481EAFB11DAC6D3F00695C0E /* Assets.xcassets */; };
 		481EAFB51DAC6D3F00695C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481EAFB31DAC6D3F00695C0E /* LaunchScreen.storyboard */; };
+		481EAFBD1DAC6F4A00695C0E /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481EAFBC1DAC6F4A00695C0E /* FriendListViewController.swift */; };
+		487D22FA1DBC0E10004278CF /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D22F91DBC0E10004278CF /* FriendDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		481EAFA71DAC6D3F00695C0E /* Friendbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		481EAFAA1DAC6D3F00695C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		481EAFAC1DAC6D3F00695C0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		481EAFAF1DAC6D3F00695C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		481EAFB11DAC6D3F00695C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		481EAFB41DAC6D3F00695C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		481EAFB61DAC6D3F00695C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481EAFBC1DAC6F4A00695C0E /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		487D22F91DBC0E10004278CF /* FriendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				481EAFAA1DAC6D3F00695C0E /* AppDelegate.swift */,
-				481EAFAC1DAC6D3F00695C0E /* ViewController.swift */,
+				481EAFBC1DAC6F4A00695C0E /* FriendListViewController.swift */,
+				487D22F91DBC0E10004278CF /* FriendDetailViewController.swift */,
 				481EAFAE1DAC6D3F00695C0E /* Main.storyboard */,
 				481EAFB11DAC6D3F00695C0E /* Assets.xcassets */,
 				481EAFB31DAC6D3F00695C0E /* LaunchScreen.storyboard */,
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				481EAFAD1DAC6D3F00695C0E /* ViewController.swift in Sources */,
+				481EAFBD1DAC6F4A00695C0E /* FriendListViewController.swift in Sources */,
 				481EAFAB1DAC6D3F00695C0E /* AppDelegate.swift in Sources */,
+				487D22FA1DBC0E10004278CF /* FriendDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				481EAFBB1DAC6D3F00695C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
